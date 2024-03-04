@@ -3,94 +3,95 @@
 *,
 *::before,
 *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*Devices smaller than 767px*/
 @media (max-width: 767px) {
-    body {
-        background-color: #587866;
-        margin: 0 25px 0 25px;
-    }
+  body {
+    background-color: #587866;
+    margin: 0 25px 0 25px;
+  }
 }
 
 /*Devices between 768px and 1024px*/
 @media (min-width: 768px) and (max-width: 1024px) {
-    body {
-        background-color: #EED06C;
-    }
+  body {
+    background-color: #eed06c;
+  }
 }
 
 /*Devices larger than 1024px*/
 @media (min-width: 1024px) {
-    body {
-        background-color: #F6F4F2;
-    }
+  body {
+    background-color: #f6f4f2;
+  }
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #keys {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
 
 #calculator {
-    border-radius: 15px;
-    padding: 20px;
-    width: 768px; 
-    background-color: #777;
-    overflow: hidden;
-    border-radius: 5px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 768px;
+  background-color: #777;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 input {
-    width: 100%;
-    height: 50px;
-    padding: 0 50px;
-    margin: 20px 0;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    text-align: right;
-    background-color: #555;
-    color: #fff;
+  width: 100%;
+  height: 50px;
+  padding: 0 50px;
+  margin: 20px 0;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  text-align: right;
+  background-color: #555;
+  color: #fff;
 }
 
 button {
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-    background-color: #555;
-    color: #fff;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 h2 {
-    color: white;
+  color: white;
 }
 
 button:active {
-    background-color: #777;
+  background-color: #777;
 }
 
-.maths-symbols, #equal-sign {
-    background-color: #f3e9dc;
-    color: #333;
+.maths-symbols,
+#equal-sign {
+  background-color: #f3e9dc;
+  color: #333;
 }
 
 #clear-btn {
-    background-color: #dd5560;
+  background-color: #dd5560;
 }
